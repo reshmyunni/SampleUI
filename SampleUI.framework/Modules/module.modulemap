@@ -1,0 +1,11 @@
+framework module SampleUI {
+  umbrella header "SampleUI.h"
+
+  export *
+  module * { export * }
+}
+
+module SampleUI.Swift {
+  header "SampleUI-Swift.h"
+  requires objc
+}
